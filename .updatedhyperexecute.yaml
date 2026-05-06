@@ -1,0 +1,179 @@
+accessibilityJob: false
+alwaysRunPostSteps: false
+appium: null
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - .m2
+cacheKey: '{{ checksum "pom.xml" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: java-testng-selenium
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 1
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        autoGrantPermissions: false
+        avoidAppLaunch: false
+        customData: {}
+        darkMode: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        enableBluetooth: false
+        enableResultBundle: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        localhost: false
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        networkLogsOptions:
+            captureContent: false
+            excludeHosts: []
+            includeHosts: []
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        smartUI: null
+        testRemarks: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalPost:
+    commands: []
+    completed: false
+    disableEmail: false
+    downloadArtifacts: false
+    email:
+        linkValidity: 0
+        metaInfo: []
+        templatePath: ""
+        to: []
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+globalPre:
+    commands: []
+    completed: false
+    location: ""
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    type: ""
+    workingDirectory: ""
+    yamlPath: null
+jobID: 3eae8d07-1d4b-4fee-ba96-3dbd577c6218
+jobLabel:
+    - selenium-testng
+    - linux
+    - v1
+    - autosplit
+key: '********'
+localHTTPProxy: ""
+ltOptions: {}
+maxRetries: 3
+maxRetriesPreSteps: 0
+meta: {}
+onpremEnv: ""
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+preDirectives:
+    commands:
+        - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: 01KQ97BPRNT7BKKE7CM9CJTFR8
+    name: LambdaTest Default Project
+    type: custom
+projectpath: ""
+regionConfig:
+    storage:
+        enabled: false
+        name: ""
+        platform: azure
+        region: ""
+    vm: []
+retryOnFailure: true
+runson: linux
+runtime:
+    language: java
+    version: "11"
+    addons: []
+    opts: {}
+slackChannel: ""
+sourcePayload:
+    verifySSL: true
+sprofilePath: ""
+storageType: ""
+testDiscovery:
+    command: echo "xml/single.xml"
+    mode: static
+    type: raw
+testDiscoveryResult:
+    - \"xml/single.xml\"
+testDiscoveryResult2D:
+    - - \"xml/single.xml\"
+testDiscoveryResultV3: []
+testRunnerCommand: mvn test -Dplatname=linux-Dmaven.repo.local=./.m2 -Dsuite=single.xml
+testSuites: []
+triggerMode: false
+triggerSource: CLI
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+user: madhumithatickingminds
+version: "0.1"
+waitForArtefactsUpload: false
+whiteLabelProductTag: ""

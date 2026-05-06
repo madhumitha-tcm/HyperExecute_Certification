@@ -1,0 +1,92 @@
+{
+    "id": "3eae8d07-1d4b-4fee-ba96-3dbd577c6218",
+    "created_at": "2026-05-05T12:22:48Z",
+    "update_at": "2026-05-05T12:24:22Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2026-05-05T12:23:23Z",
+    "end_time": "2026-05-05T12:24:22Z",
+    "summary": {
+        "total_time": 59000000000,
+        "execution_time": 59000000000,
+        "total_tasks": 1,
+        "build_time_consumed": 59000000000,
+        "jobTestExecutionTime": "3s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=3eae8d07-1d4b-4fee-ba96-3dbd577c6218"
+    },
+    "tasks": [
+        {
+            "id": "HYPL-3108786-1777983801806063500TYC",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2026-05-05T12:23:21Z",
+            "update_at": "2026-05-05T12:24:22Z",
+            "start_time": "2026-05-05T12:23:23Z",
+            "end_time": "2026-05-05T12:24:22Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "cbdacc1b-f56e-4a46-bfae-93bd3e91156f",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-05-05T12:23:27Z",
+                    "started_at": "2026-05-05T12:23:26Z",
+                    "updated_at": "2026-05-05T12:23:50Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "4504e3f5-0fcd-4cc8-aee2-5ead885f36db",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2026-05-05T12:23:51Z",
+                    "started_at": "2026-05-05T12:23:51Z",
+                    "updated_at": "2026-05-05T12:23:51Z",
+                    "order": 4,
+                    "task_number": 1
+                },
+                {
+                    "id": "2c7da42b-f73b-413e-8ace-b5af5c8373a2",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\\\"xml/single.xml\\\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2026-05-05T12:23:51Z",
+                    "started_at": "2026-05-05T12:23:52Z",
+                    "updated_at": "2026-05-05T12:24:18Z",
+                    "order": 5,
+                    "task_number": 1
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
